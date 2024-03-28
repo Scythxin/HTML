@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Button</title>
+    </head>
+
+    <body>
+
+        <a href="https://google.com" target="_blank">
+        <button style="font-size: 25px; background-color: cyan; border-radius: 25px;">Click Me</button>
+        </a>
+
+        <br>
+
+        <a href="Lyrics.html" target="_blank">
+            <button style="font-size: 25px; background-color: yellow; border-radius: 25px;">Click Me</button>
+        </a>
+
+        <br>
+
+        <!--Requires JavaScript-->
+        <button onclick="doSomething()" style="font-size: 25px; background-color: cyan; border-radius: 25px;">Click Me</button>
+
+        <p id="greeting">Hello</p>
+
+        <script>
+            function doSomething(){
+                document.getElementById("greeting").innerHTML= "Goodbye";
+            }
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,22 @@
+/*
+    fonts taken from internal files so no link is used in the main html file
+*/
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+h1{
+    font-family: Roboto-Light,Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: 'OpenSans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
