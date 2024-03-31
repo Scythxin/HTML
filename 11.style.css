@@ -1,0 +1,67 @@
+/*Can apply width and height*/
+#div0{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: block;/*How you want to display it*/
+}
+/*Can't apply width and height*/
+#span0{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: block;/*By using display we can make it a block*/
+}
+#div1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline;/*How you want to display it*/
+}
+/*Can't apply width and height*/
+#span1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline;/*By using display we can make it a block*/
+}
+#div2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;/*How you want to display it*/
+}
+/*Can't apply width and height*/
+#span2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;/*By using display we can make it a block*/
+}
+#div3{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: none;/*Erases element*/
+}
+/*Can't apply width and height*/
+#span3{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: block;/*By using display we can make it a block*/
+}
+#div4{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;/*Present but wont be visible*/
+}
+/*Can't apply width and height*/
+#span4{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;/*By using display we can make it a block*/
+}
