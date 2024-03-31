@@ -1,0 +1,27 @@
+#l1{
+    border: 3px solid;
+    height: 50px;
+    overflow: visible;/*Allows overflow*/
+}
+#l2{
+    border: 3px solid;
+    height: 50px;
+    overflow: hidden; /*Hides overflow but the statement is interactable*/
+
+}
+#l3{
+    border: 3px solid;
+    height: 50px;
+    overflow: clip;/*Same as hidden but can show the text upto a given amount*/
+    overflow-clip-margin: 13px;
+}
+#l4{
+    border: 3px solid;
+    height: 50px;
+    overflow: scroll;/*Shows a scroll wheel*/
+}
+#l5{
+    border: 3px solid;
+    height: 50px;
+    overflow: auto;/*Shows scroll wheel only if the box is smaller than the given text*/
+}
