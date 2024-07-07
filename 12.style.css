@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box; /*Applies to all the elements*/
+}
+
+.container{
+    background-color: grey;
+    height: 50vh;
+}
+.box1{
+    border: 2px solid black;
+    padding: 20px;
+    height: auto;
+    width: 50%;
+}
+
+.box3{
+    height: auto;
+    width: 50%;
+    float: left;
+    
+}
+
+.box4{
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    background-color: wheat;
+
+    /*max-width: 25%;
+    min-width: 50%*/
+}
+
+.box2{
+    border: 2px solid black;
+    
+}
+
