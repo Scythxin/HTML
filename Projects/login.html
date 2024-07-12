@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        div{
+            background-color: whitesmoke;
+            color: black;
+            height: 230px;
+            width: 500px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            margin:auto;
+            margin-top: 250px;
+            box-shadow: 10px 10px 10px rgb(95, 95, 95);
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        div:hover{
+            background-color: rgb(230, 230, 230);
+        }
+
+        button{
+            transition: 0.3s;
+        }
+
+        button:hover{
+            font-size: 15px;
+            padding: 5px;
+            width: 15%;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <form>
+            <label><big>Login</big></label>
+            <br>
+            <br>
+            <label for="un">Userame:</label>&nbsp;
+            <input type="text" id="un" placeholder="Name">
+            <br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" placeholder="password">
+            <br>
+            <br>
+            <input type="checkbox" id="lgn"> 
+            <label for="lgn">Keep me logged in</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <br>
+            <button type="submit">Log In</button>
+            <button type="reset">Reset</button>
+            <br>
+            <br>
+            <label><a>Forgot Password?</a></label>
+            <br>
+            <p>New User? <a href="signin.html">Sign in</a></p>
+        </form>
+    </div>
+    <br>
+
+</body>
+</html>
