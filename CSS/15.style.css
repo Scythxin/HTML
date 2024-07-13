@@ -1,0 +1,20 @@
+#container{
+    border: 2px solid;
+
+}
+
+/*#container p{
+    background-color: yellow; 
+}*//* All decendents of the container*/
+
+/*#container > p{
+    background-color: yellow;
+}*//* Only the children of container not "grandchildren"*/
+
+/*#container ~ p{
+    background-color: yellow;
+}*//* Siblings of the div element*/
+
+/*#container + p{
+    background-color: yellow;
+}*//* Adjacent sibling of the div element*/
