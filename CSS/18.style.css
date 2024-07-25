@@ -1,0 +1,23 @@
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    color:black;
+    text-decoration: none;/*Underline*/
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+/* In pagination class find an anchor tag with a class of active. */
+.pagination a.active{
+    background-color: rgb(88, 241, 88);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* In pagination class find anchor tag when hovered and not active. */
+.pagination a:hover:not(.active){
+    background-color: rgb(214, 212, 212);
+    border-radius: 5px;
+}
