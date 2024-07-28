@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+/* 
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; 
+    justify-content: center; Aligns item in x-axis
+    align-items: center; Align items in y-axis
+    align-items: baseline; Aligns the fonts
+    flex-wrap: wrap; Wraps the items if there isn't enough space
+    align-content: start; Typically used with flex-wrap to keep elements connected
+    column-gap: 1em;
+    row-gap: 1em;*/
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: hsl(0, 100%, 70%);
+    align-self: center;
+    order: 1;
+}
+/* Order is used to keep elements in a specific order. */
+
+
+#box2{
+    background-color: hsl(60, 100%, 70%); 
+    align-self: end;  
+}
+
+#box3{
+    background-color: hsl(120, 100%, 70%);   
+}
+
+#box4{
+    background-color: hsl(197, 71%, 73%);   
+}
