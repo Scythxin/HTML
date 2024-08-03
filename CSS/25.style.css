@@ -1,0 +1,36 @@
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13rem;
+    text-align: center;
+
+    transform: translate(20px,20px) rotate(45deg) scale(0.65);
+    /* transform: translateX(50px); move element along the x axis, can be done using px or %. */
+    /* transform: translateY(50px); move element along the y axis, can be done using px or %. */
+    /* transform: translate(50px,50px); move element along the x,y axis, can be done using px or %. */
+
+    /* transform: rotateX(120deg); rotates the element along the x axis. */
+    /* transform: rotateY(120deg); rotates the element along the y axis. */
+    /* transform: rotateZ(120deg); rotates the element along the z axis. */
+
+    /* transform: scaleX(1.2); scales the element along x axis.  */
+    /* transform: scaleY(1.2); scales the element along y axis.  */
+    /* transform: scale(1.2,2.1); scales the element along x,y axis.  */
+
+    /* transform: skewX(170deg); skews the element in x axis. */
+    /* transform: skewX(170deg); skews the element in y axis. */
+    /* transform: skewX(170deg,30deg); skews the element in x,y axis. */
+}
+
+#box1{
+    background-color: greenyellow;
+}
+
+#box2{
+    background-color: rgb(255, 44, 44);
+}
+
+#box3{
+    background-color: rgb(0, 225, 255);
+}
