@@ -30,3 +30,18 @@ console.log(phNo);
 let phNo3 = "123-456-7890";
 phNo = phNo.padEnd(15, "0"); //Give a string size and add given number in the begining.
 console.log(phNo);
+
+
+//String Slicing = Create a substring from another string
+// string.slice(start,end);
+
+const fullName = "Bro Code";
+
+// let firstName = fullName.slice(0,3);
+// let lastName = fullName.slice(3,8);
+
+let firstName = fullName.slice(0, fullName.indexOf(" "));
+let lastName = fullName.slice(fullName.indexOf(" ")+1);
+
+console.log(firstName);
+console.log(lastName);
