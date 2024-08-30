@@ -39,7 +39,9 @@ person2.eat();
 
 //this = reference to the object where THIS is used
 //       (the object depends on immediate context)
-//       person.name == this.name
+//       person.name == this.name 
+
+//*** "this" doesn't work with arrow function
 
 const person = {
     firstName: "Spongebob",
