@@ -36,3 +36,16 @@ person2.eat();
 // console.log(person2.lastName);
 // console.log(person2.age);
 // console.log(person2.isEmployed);
+
+//this = reference to the object where THIS is used
+//       (the object depends on immediate context)
+//       person.name == this.name
+
+const person = {
+    firstName: "Spongebob",
+    lastName: "Squarepants",
+    age: 30,
+    isEmployed: true,
+    sayHello: function(){console.log(`Hi I am ${this.firstName}`)},
+    eat: function(){console.log("I am eating a Krabby Patty")},
+}
